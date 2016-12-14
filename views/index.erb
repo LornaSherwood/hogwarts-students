@@ -1,0 +1,15 @@
+<h1>Hogwarts Students</h1>
+
+<!-- <p><a href="/pizzas/new">New Pizza</a></p> -->
+
+<% for student in @students %>
+<p>First name: <%= student.first_name %></p>
+<p>Last name: <%= student.second_name %></p>
+
+
+<p><a href="/students/<%= student.id %>">Show student details</a></p> 
+
+
+
+<hr>
+<% end %>

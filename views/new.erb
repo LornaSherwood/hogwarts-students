@@ -1,0 +1,29 @@
+<h1>Enroll A Student</h1>
+
+<form action="/students" method="post"> 
+  <label>
+    First name:
+    <input type:"text" name="first_name">
+  </label>
+
+  <label>
+    Last name:
+    <input type:"text" name="second_name">
+  </label>
+  
+  <label>
+    Select a house:
+    <select name="house">
+      <option value ="Gryffindor">Gryffindor</option>
+      <option value ="Hufflepuff">Hufflepuff</option>
+      <option value ="Slytherin">Slytherin</option>
+      <option value ="Ravenclaw">Ravenclaw</option>
+    </select>
+  </label>
+
+  <label>
+    Age:
+    <input type="number" name="age"/>
+  </label>
+  <input type="submit" value="Enroll"/>
+</form>
